@@ -20,4 +20,6 @@ jobs:
 
     steps:  
     - name: task
-      run: python h1.py
+      run:
+       #!/usr/bin/env python
+       python h1.py
