@@ -48,4 +48,5 @@ jobs:
           miyao: ${{secrets.miyao}}
           fasong: ${{secrets.fasong}}
           jieshou: ${{secrets.jieshou}}
+          PUSH_PLUS_TOKEN: ${{secrets.PUSH_PLUS_TOKEN}}
         run: python h1.py
