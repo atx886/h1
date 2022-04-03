@@ -4,6 +4,7 @@ from openpyxl.styles import Alignment
 from datetime import date, timedelta
 from decimal import *
 import os
+import notify
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
