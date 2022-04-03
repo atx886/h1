@@ -262,3 +262,4 @@ fasong = os.environ['fasong']
 jieshou = os.environ['jieshou']
 
 init_main(zh, mm, fasong, jieshou, miyao)
+notify.send('发送', 'ok')
